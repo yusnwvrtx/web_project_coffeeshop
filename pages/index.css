@@ -6,3 +6,46 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.header {
+  background-color: #fff;
+  background-image: url(../images/background_header.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav__links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  column-gap: 20px;
+  margin: 8px 0 0;
+}
+
+.nav__link {
+}
+
+.header__content {
+}
+
+.header__title {
+}
+
+.header__span-accent {
+}
+
+.header__description {
+}
+
+.header__image {
+  position: absolute;
+}
