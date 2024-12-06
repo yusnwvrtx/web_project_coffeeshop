@@ -35,7 +35,6 @@
 }
 
 .nav__links {
-  display: flex;
   list-style-type: none;
   padding: 0;
   column-gap: 20px;
@@ -49,15 +48,23 @@
 }
 
 .header__content {
+  position: relative;
+  left: 80px;
 }
 
 .header__title {
   max-width: 709px;
-  margin: 0;
-  padding: 0;
+  margin: 183 0 0 0;
 }
 
 .header__span-accent {
+  font-family: "Noto Serif", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  display: block;
 }
 
 .header__description {
@@ -67,18 +74,29 @@
 }
 
 .header__image {
-  width: 646px;
-  height: 568px;
+  max-width: 646px;
+  max-height: 568px;
   position: absolute;
   right: 5px;
   top: 124px;
 }
 
 .header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
 }
 
 .header__paragraph-hour {
 }
 
 .header__paragraph-address {
+}
+
+.recipes {
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
