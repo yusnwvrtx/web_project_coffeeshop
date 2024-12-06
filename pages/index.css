@@ -55,6 +55,12 @@
 .header__title {
   max-width: 709px;
   margin: 183 0 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
 }
 
 .header__span-accent {
